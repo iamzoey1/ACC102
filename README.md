@@ -5,7 +5,7 @@ This project quantifies influencer market power through user stickiness, demand 
 
 ## 2. Data
 - **Source:** Kaggle (`influencer_marketing_roi_dataset.csv`)
-- **Access Date:** April 2026
+- **Access Date:** April 17th 2026
 - **Size:** 150,000 campaigns (2023–2025)
 - **Key Fields:** `estimated_reach` (audience scale), `engagements` (interaction quality), `product_sales` (monetization)
 - **Note:** The dataset is loaded via relative path in both the Jupyter Notebook and the Streamlit app.
