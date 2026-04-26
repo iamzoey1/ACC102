@@ -28,8 +28,10 @@ Prerequisites: Python 3.9+; dependencies listed in requirements.txt.
 Setup:
 1. Clone this repository:
    git clone https://github.com/iamzoey1/ACC102.git
+
    cd ACC102
-2. Install dependencies:
+   
+3. Install dependencies:
 
     pip install -r requirements.txt
 
