@@ -27,8 +27,8 @@ Prerequisites: Python 3.9+; dependencies listed in requirements.txt.
 
 Setup:
 1. Clone this repository:
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
+   git clone https://github.com/iamzoey1/ACC102.git
+   cd ACC102
 2. Install dependencies:
 
     pip install -r requirements.txt
@@ -43,8 +43,8 @@ Run the Streamlit App (Track 4 Product):
 The app will start locally at http://localhost:8501.
 
 ## 6. Product link / Demo
-- Product Link (GitHub Repository): https://github.com/<your-username>/<your-repo-name>
-- Demo Video: [Link to be updated upon upload — accessible to marker during marking period]
+- Product Link (GitHub Repository): https://github.com/iamzoey1/ACC102
+- Demo Video: https://video.xjtlu.edu.cn/Mediasite/Play/c41186a0542e461eb69cd73a6e6bed9a1d
 
 ## 7. Limitations & next steps
 - Cross-sectional data limits causal inference; panel data and fixed-effects models would enable dynamic analysis.
