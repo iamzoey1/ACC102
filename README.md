@@ -4,11 +4,11 @@
 This project quantifies influencer market power through user stickiness, demand elasticity, and consumer welfare to help brand managers and MCN analysts identify optimal KOL investment targets beyond vanity metrics.
 
 ## 2. Data
-- **Source:** Kaggle (`influencer_marketing_roi_dataset.csv`)
+- **Source:** Kaggle `influencer_marketing_roi_dataset.csv`(https://www.kaggle.com/datasets/tfisthis/influencer-marketing-roi-dataset/data)
 - **Access Date:** April 17th 2026
 - **Size:** 150,000 campaigns (2023–2025)
 - **Key Fields:** `estimated_reach` (audience scale), `engagements` (interaction quality), `product_sales` (monetization)
-- **Note:** The dataset is loaded via relative path in both the Jupyter Notebook and the Streamlit app.
+- **Note:** The dataset is loaded via relative path in both the Jupyter Notebook and the Streamlit app. If the file is not present, download it from the Kaggle source link above and place it in the `data/` folder before running.
 
 ## 3. Methods
 - **Data preprocessing:** Pandas loading, field mapping to economic concepts (`fans`, `interactions`, `revenue`), deterministic noise injection (`np.random.seed(42)`), and invalid-record filtering.
